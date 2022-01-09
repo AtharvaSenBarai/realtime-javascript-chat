@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCSVtkMotInxYNE-fnvfVdaC5aVGlhzj4k",
-  authDomain: "realtime-chat-57551.firebaseapp.com",
-  projectId: "realtime-chat-57551",
-  storageBucket: "realtime-chat-57551.appspot.com",
-  messagingSenderId: "937988465507",
-  appId: "1:937988465507:web:ccf97f8919226364f8a956",
+  apiKey: "AIzaSyAgcMf7umnASf0vSmuKWJlVSIbe3K0tAfA",
+  authDomain: "chess-game-a8036.firebaseapp.com",
+  projectId: "chess-game-a8036",
+  storageBucket: "chess-game-a8036.appspot.com",
+  messagingSenderId: "481285790558",
+  appId: "1:481285790558:web:3c2218fcedb674f0f94dcf",
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
