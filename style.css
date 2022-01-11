@@ -1,62 +1,38 @@
-nav {
-    background-color: #3f51b5;
-}
-header {
-    margin-bottom:40px;
-}
-nav .brand-logo {
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 1.5rem;
-    padding-left: 5px;
+body {
+  margin: 40px
 }
 
-
-.chat{
-  background-color:#fff;
-  display:inline-block;
-  position:relative;
-  padding:5px;
-  margin-left:10px;
-  border:2px solid red;
-  border-top-right-radius:10px;
+h3{
+  text-align: center;
 }
 
-.messages{
-  background-color:#fff;
-  display:inline-block;
-  position:relative;
-  padding:5px;
-  margin-right:10px;
-  border:2px solid grey;
-  border-top-left-radius: 10px;
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.send-message{
-  margin:0;
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.chat-txt{
-  width:0;
-  height:0;
-  border-width: 10px 0px 10px 10px;
-  border-style:solid;
-  border-color:red transparent transparent transparent;
-  position:absolute;
-  top:-2px;
-  left:0;
-  transform:translate(-100%,0);
+button[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.chat-btn{
-  width:0;
-  height:0;
-  border-width: 10px 10px 10px 0px;
-  border-style:solid;
-  border-color:grey transparent transparent transparent;
-  position:absolute;
-  top:-2px;
-  right:-20px;
-  transform:translate(-100%,0);
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
